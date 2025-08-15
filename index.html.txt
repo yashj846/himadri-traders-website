@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himadri Traders - Premium Rice Exporters</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-lora {
+            font-family: 'Lora', serif;
+        }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/1920x1080/?paddy,field,india');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-green-800 font-lora">Himadri Traders</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-green-700 transition duration-300">About Us</a>
+                <a href="#products" class="text-gray-600 hover:text-green-700 transition duration-300">Our Products</a>
+                <a href="#quality" class="text-gray-600 hover:text-green-700 transition duration-300">Quality</a>
+                <a href="#contact" class="text-gray-600 hover:text-green-700 transition duration-300">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden flex items-center">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#about" class="block px-6 py-2 text-sm text-gray-600 hover:bg-green-50">About Us</a>
+            <a href="#products" class="block px-6 py-2 text-sm text-gray-600 hover:bg-green-50">Our Products</a>
+            <a href="#quality" class="block px-6 py-2 text-sm text-gray-600 hover:bg-green-50">Quality</a>
+            <a href="#contact" class="block px-6 py-2 text-sm text-gray-600 hover:bg-green-50">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white">
+        <div class="container mx-auto px-6 py-32 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold font-lora mb-4 leading-tight">Exporting the Finest Indian Rice to the World</h1>
+            <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">From the fertile foothills of the Himalayas, Himadri Traders brings you premium quality rice, cultivated with care and tradition.</p>
+            <a href="#products" class="bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-8 rounded-lg transition duration-300 text-lg">Explore Our Rice</a>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-6 py-16">
+
+        <!-- About Us Section -->
+        <section id="about" class="mb-20 scroll-mt-20">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-green-800 font-lora mb-4">Welcome to Himadri Traders</h2>
+                    <p class="mb-4">Founded on the principles of quality, integrity, and reliability, Himadri Traders is a leading exporter of premium Indian rice. Our journey began with a simple mission: to share the authentic taste and aroma of Indian rice with the global community.</p>
+                    <p class="mb-4">We source our grains directly from the finest paddy fields in India, ensuring that every grain meets our exacting standards. Our name, 'Himadri', refers to the majestic Himalayas, symbolizing the purity and natural goodness of our products.</p>
+                    <p>Our experienced team oversees the entire process, from procurement and milling to packaging and shipping, guaranteeing a product that you can trust.</p>
+                </div>
+                <div>
+                    <img src="https://source.unsplash.com/600x400/?rice,bowl,grains" alt="A bowl of premium rice grains" class="rounded-lg shadow-xl w-full h-auto object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/e2e8f0/333333?text=Image+Not+Found';">
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Products Section -->
+        <section id="products" class="mb-20 scroll-mt-20">
+            <h2 class="text-3xl font-bold text-center text-green-800 font-lora mb-10">Our Premium Rice Varieties</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Product 1: Basmati -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <img src="https://source.unsplash.com/400x300/?basmati,rice" alt="Long-grain Basmati rice" class="w-full h-48 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x300/f7fafc/333333?text=Image';">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 font-lora">Basmati Rice</h3>
+                        <p class="text-gray-600">Known as the 'Queen of Fragrance', our Basmati rice is distinguished by its long, slender grains and delightful aroma. Perfect for biryanis and pilafs.</p>
+                    </div>
+                </div>
+                <!-- Product 2: Sona Masoori -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <img src="https://source.unsplash.com/400x300/?sona+masoori,rice" alt="Sona Masoori rice grains" class="w-full h-48 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x300/f7fafc/333333?text=Image';">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 font-lora">Sona Masoori Rice</h3>
+                        <p class="text-gray-600">A lightweight and aromatic medium-grain rice. It is a staple in South Indian cuisine and is known for its delicate flavor and easy digestibility.</p>
+                    </div>
+                </div>
+                <!-- Product 3: Brown Rice -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                    <img src="https://source.unsplash.com/400x300/?brown,rice" alt="Healthy brown rice" class="w-full h-48 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/400x300/f7fafc/333333?text=Image';">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 font-lora">Brown Rice</h3>
+                        <p class="text-gray-600">A whole-grain rice with the outer bran layer intact. It's a healthier choice, rich in fiber and nutrients, with a nutty flavor and chewy texture.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quality Assurance Section -->
+        <section id="quality" class="mb-20 bg-green-700 text-white rounded-lg p-12 scroll-mt-20">
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <h3 class="text-2xl font-bold mb-2 font-lora">Sourced Directly</h3>
+                    <p>We partner with local farmers to select the highest quality paddy, ensuring freshness and purity from the very start.</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-2 font-lora">State-of-the-Art Milling</h3>
+                    <p>Our rice is processed in modern facilities using advanced technology to preserve its natural aroma, flavor, and nutritional value.</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-2 font-lora">Global Standards</h3>
+                    <p>We adhere to strict international quality control and food safety standards, ensuring our products are ready for the global market.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="scroll-mt-20">
+            <h2 class="text-3xl font-bold text-center text-green-800 font-lora mb-10">Get in Touch</h2>
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-10 bg-white p-8 rounded-lg shadow-lg">
+                <!-- Contact Form -->
+                <form id="contactForm">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-6 rounded-lg transition duration-300">Send Inquiry</button>
+                    <p id="form-status" class="mt-4 text-center"></p>
+                </form>
+                <!-- Contact Details -->
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">Contact Information</h3>
+                        <p><strong>Email:</strong> sales@himadritraders.com</p>
+                        <p><strong>Phone:</strong> +91 123 456 7890</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">Corporate Office</h3>
+                        <p>123 Rice Market, Karnal,</p>
+                        <p>Haryana, 132001, India</p>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">Business Hours</h3>
+                        <p>Monday - Saturday: 9:00 AM - 6:00 PM (IST)</p>
+                    </div>
+                     <div>
+                        <h3 class="font-bold text-lg mb-2">Connect with Us</h3>
+                        <div class="flex items-center space-x-4">
+                            <a href="https://wa.me/911234567890" target="_blank" rel="noopener noreferrer" class="flex items-center text-gray-600 hover:text-green-700 transition duration-300">
+                                <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.886-.001 2.267.655 4.398 1.908 6.166l-.962 3.525 3.612-.955z"/></svg>
+                                <span>WhatsApp</span>
+                            </a>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="flex items-center text-gray-600 hover:text-green-700 transition duration-300">
+                                <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p class="font-lora text-lg">Himadri Traders</p>
+            <!-- Social Media Icons -->
+            <div class="flex justify-center space-x-6 my-4">
+                <a href="https://wa.me/911234567890" target="_blank" rel="noopener noreferrer" title="WhatsApp" class="text-gray-400 hover:text-white transition duration-300">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.886-.001 2.267.655 4.398 1.908 6.166l-.962 3.525 3.612-.955z"/>
+                    </svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="text-gray-400 hover:text-white transition duration-300">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                </a>
+            </div>
+            <p class="text-gray-400 mt-2">&copy; 2024 Himadri Traders. All Rights Reserved.</p>
+            <p class="text-gray-500 text-sm mt-2">Exporting Quality. Cultivating Trust.</p>
+        </div>
+    </footer>
+    
+    <!-- Floating Action Button -->
+    <a href="#contact" title="Contact Us" class="fixed bottom-8 right-8 bg-green-700 hover:bg-green-800 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg z-50 transition-transform transform hover:scale-110">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+    </a>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Handle Contact Form Submission
+        const contactForm = document.getElementById('contactForm');
+        const formStatus = document.getElementById('form-status');
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            formStatus.textContent = 'Sending...';
+            
+            // This is a mock submission. In a real application, you would send the data to a server.
+            setTimeout(() => {
+                formStatus.textContent = 'Thank you for your inquiry! We will get back to you soon.';
+                formStatus.classList.add('text-green-600');
+                contactForm.reset();
+                setTimeout(() => {
+                    formStatus.textContent = '';
+                    formStatus.classList.remove('text-green-600');
+                }, 5000);
+            }, 1000);
+        });
+    </script>
+
+</body>
+</html>
