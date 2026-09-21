@@ -21,7 +21,15 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.himadritraders.com/product-chilli-coriander.html</loc>
+        <loc>https://www.himadritraders.com/product-chilli.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.himadritraders.com/product-coriander.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.himadritraders.com/quality.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
